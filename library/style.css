@@ -1,0 +1,102 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+body{
+	font-family: "Libre Baskerville", serif;
+ 	font-style: italic;
+	font-size: 60px;
+	box-sizing: border-box;
+	line-height:50px;
+	padding:50px;
+	margin:10px;
+	text-align: center;
+	color:orange;
+	background-color:#2929a3;
+}
+
+h1{
+	padding-top:110px;
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+	font-size: 90px;
+	line-height: 90px;
+}
+
+h3{
+	font-family: "Libre Baskerville", serif;
+ 	font-style: italic;
+	font-size: 18px;
+}
+
+button{
+	transition-duration: 0.7s;
+	color:orange;
+	background-color: transparent;
+	border:transparent;
+	font-size:50px;
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+}
+
+button:hover{
+	background-color:orange;
+	color:#2929a3;
+	border-radius:30px;
+}
+
+.button2{
+	color:orange;
+	background-color: transparent;
+	font-size:18px;
+	font-family: "Libre Baskerville", serif;
+	font-style: italic;
+
+}
+
+img{
+	width:150px;
+	height:150px;
+}
+
+div{
+	line-height:200px;
+}
+
+
+
+
+
+.words {
+  background-color:#24248f;
+  font-size: 15px;
+  position: relative;
+  animation: move-words 25s linear infinite;
+  margin: 0;
+}
+
+@keyframes move-words {
+  0% {
+    left: 100%;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+.point{
+ cursor:pointer;
+}
+
+#par1{
+	line-height: 60px;
+	padding: 180px 80px 80px;
+	text-align: center;
+}
+
+.what: hover{
+opacity:1;
+transition: all ease-in-out 3s;
+}
